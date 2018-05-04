@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript" src="operaciones.js"></script>
+</head>
+<body>
+	<form>
+		<table colspan="4" border="1">
+			<tr>
+				<td><label>Numero 1</label> </td>
+				<td><input type="text" name="num1"  id="num1"></td>
+			</tr>
+			<tr>
+				<td><label>Numero 2</label> </td>
+				<td><input type="text" name="num2" id="num2"></td>
+			</tr>
+			<tr>
+				<td><label>Resultado</label> </td>
+				<td><input type="text" name="resultado" id="resultado"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" id="suma" value="Suma" onclick="return operaciones(1)"><input type="submit" id="resta" value="Resta"onclick="return operaciones(2)"></td>
+				<td><input type="submit" id="multiplicacion" value="Multiplicacion"onclick="return operaciones(3)"><input type="submit" id="division" value="Division"onclick="return operaciones(4)"></td>
+				
+
+			</tr>	
+		</table>
+	</form>
+</body>
+</html>
